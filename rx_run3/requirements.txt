@@ -15,7 +15,7 @@ pandarallel
 pandas
 particle
 pdg
-pidcalib2
+#pidcalib2 # Has to have XROOTD problem fixed
 pyarrow
 PyYAML
 scikit-learn
@@ -26,4 +26,5 @@ toml
 tqdm
 uproot
 vector
+xrootd
 zfit
