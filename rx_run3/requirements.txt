@@ -3,7 +3,6 @@ awkward
 awkward-pandas
 boost-histogram
 dask[dataframe,distributed]
-fsspec-xrootd
 hist[plot]
 jacobi
 joblib
