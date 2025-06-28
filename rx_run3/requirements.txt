@@ -26,5 +26,4 @@ toml
 tqdm
 uproot
 vector
-xrootd
 zfit
