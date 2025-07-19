@@ -11,6 +11,8 @@ matplotlib
 mplhep
 numpy
 optuna
+torch
+bokeh
 pandarallel
 pandas
 particle
