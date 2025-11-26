@@ -63,7 +63,7 @@ hepunits==2.4.3
 hist==2.9.0
 histoprint==2.6.0
 hpack==4.1.0
-htcondor==24.9.2
+htcondor==24.12.13
 httpcore==1.0.9
 httpx==0.28.1
 hyperframe==6.1.0
