@@ -27,3 +27,8 @@ Below is a list of the images and their purpose
 ### rx_run3
 
 Uses `alma9` CERN image as base, adds HEP software on top
+
+## In case something goes wrong
+
+[Knowledge database article](https://cern.service-now.com/service-portal?id=kb_article&n=KB0006874)
+[Mattermost channel](https://mattermost.web.cern.ch/it-dep/channels/cloud-containers)
