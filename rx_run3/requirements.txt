@@ -2,7 +2,6 @@ absl-py==2.3.1
 annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
 anyio @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_anyio_1758634638/work
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=ap_utilities&subdirectory=src/ap_utilities
 apd==0.8.1
 argon2-cffi @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi_1749017159514/work
 argon2-cffi-bindings @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi-bindings_1762509337249/work
@@ -42,13 +41,10 @@ Deprecated==1.3.1
 dill==0.4.0
 distributed==2025.11.0
 dm-tree==0.1.9
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=dmu&subdirectory=src/dmu
 dotmap==1.3.30
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=ecal_calibration&subdirectory=src/ecal_calibration
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1763918002538/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1756729339227/work
 fastjsonschema @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-fastjsonschema_1755304154/work/dist
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=fitter&subdirectory=src/fitter
 flatbuffers==25.9.23
 fonttools==4.60.1
 formulate==1.0.1
@@ -148,7 +144,6 @@ pidcalib2==1.4.0
 pillow==12.0.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1759953252/work
 portalocker @ file:///home/conda/feedstock_root/build_artifacts/portalocker_1757395653097/work
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=post_ap&subdirectory=src/post_ap
 prometheus_client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1758278110859/work
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1756321756983/work
 protobuf==6.33.1
@@ -175,18 +170,7 @@ rfc3339_validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3339-va
 rfc3986-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3986-validator_1598024191506/work
 rfc3987-syntax @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_rfc3987-syntax_1752876729/work
 rich==14.2.0
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=root_stubs&subdirectory=src/root_stubs
 rpds-py @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_rpds-py_1763326800/work
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_classifier&subdirectory=src/rx_classifier
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_common&subdirectory=src/rx_common
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_data&subdirectory=src/rx_data
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_efficiencies&subdirectory=src/rx_efficiencies
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_misid&subdirectory=src/rx_misid
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_orchestration&subdirectory=src/rx_orchestration
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_pid&subdirectory=src/rx_pid
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_plotter&subdirectory=src/rx_plots
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_q2&subdirectory=src/rx_q2
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=rx_selection&subdirectory=src/rx_selection
 scikit-learn==1.7.2
 scipy==1.16.3
 seaborn==0.13.2
@@ -233,7 +217,6 @@ uproot==5.6.8
 uri-template @ file:///home/conda/feedstock_root/build_artifacts/uri-template_1733323593477/work/dist
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1750271362675/work
 vector==1.7.0
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=vector_stubs&subdirectory=src/vector_stubs
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1758622279606/work
 webcolors @ file:///home/conda/feedstock_root/build_artifacts/webcolors_1761899299899/work
 webencodings @ file:///home/conda/feedstock_root/build_artifacts/webencodings_1733236011802/work
@@ -246,7 +229,6 @@ xxhash==3.6.0
 xyzservices==2025.11.0
 zfit==0.28.0
 zfit-interface==0.0.3
--e git+ssh://git@gitlab.cern.ch:7999/LHCb-RD/cal-rx-run3.git@e5e049505fe635f4021c6e529f5e9bae2141fcdb#egg=zfit_stubs&subdirectory=src/zfit-stubs
 zict==3.0.0
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1749421620841/work
 zstandard==0.25.0
