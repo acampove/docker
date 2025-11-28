@@ -36,6 +36,8 @@ Uses `alma9` CERN image as base, adds HEP software on top
 
 ## Updating the images
 
+This can be done if extra packages need to be installed or updated:
+
 ```bash
 # Create a container from an image
 podman run -it --name 002 rx_run3:v4 bash
@@ -45,6 +47,10 @@ podman commit 002 rx_run3:v4.1
 
 # Tag the image
 podman tag localhost/rx_run3:v4.1 docker.io/acampove/rx_run3:v4.1
+
+# Login with password and username to dockerhub
+# where image is stored
+podman login
 
 # Push
 podman push docker.io/acampove/rx_run3:v4.1
