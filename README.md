@@ -32,3 +32,20 @@ Uses `alma9` CERN image as base, adds HEP software on top
 
 [Knowledge database article](https://cern.service-now.com/service-portal?id=kb_article&n=KB0006874)
 [Mattermost channel](https://mattermost.web.cern.ch/it-dep/channels/cloud-containers)
+
+
+## Updating the images
+
+```bash
+# Create a container from an image
+podman run -it --name 002 rx_run3:v4 bash
+
+# Commit container, i.e. make an image from the container
+podman commit 002 rx_run3:v4.1
+
+# Tag the image
+podman tag localhost/rx_run3:v4.1 docker.io/acampove/rx_run3:v4.1
+
+# Push
+podman push docker.io/acampove/rx_run3:v4.1
+```
